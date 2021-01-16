@@ -25,7 +25,7 @@ SECRET_KEY = '!bqmqjut%$um+-wdwugxotwygj@=*2vo&bvk5j#u@^5y0#76x#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ankurblogcode.herokuapp.com']
+ALLOWED_HOSTS = ['ankurblogcode.herokuapp.com',"127.0.0.1"]
 if DEBUG:
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
@@ -80,12 +80,12 @@ WSGI_APPLICATION = 'src.wsgi.application'
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
 DATABASES = {
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.sqlite3',
-    #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    # }
+    #  'default': {
+    #      'ENGINE': 'django.db.backends.sqlite3',
+    #      'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    #  }
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        # 'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'db8g5fk1bk19vb',
         'USER': 'batvuqoporujwi',
         'PASSWORD': '1694a32a6a1ce10d00f4f7784e817236ee245cf3f73679172dee2456bf931f10',
