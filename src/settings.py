@@ -85,7 +85,7 @@ DATABASES = {
     #      'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     #  }
     'default': {
-        # 'ENGINE': 'django.db.backends.postgresql_psycopg2',
+         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'db8g5fk1bk19vb',
         'USER': 'batvuqoporujwi',
         'PASSWORD': '1694a32a6a1ce10d00f4f7784e817236ee245cf3f73679172dee2456bf931f10',
